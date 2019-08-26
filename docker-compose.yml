@@ -1,7 +1,8 @@
 version: '3'
 services:
   review:
-    image: vvakame/review:3.2
+    image: ryosms/review:3.2
+    build: .
     container_name: try-review
     volumes:
       - .:/work
