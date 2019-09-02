@@ -6,6 +6,4 @@ services:
     container_name: try-review
     volumes:
       - .:/work
-    working_dir: /work
     tty: yes
-
